@@ -1,0 +1,46 @@
+
+.cog{
+  overflow: hidden;
+}
+
+.moving_cog_1{
+    margin-left: 88%;
+    margin-top: -5%;
+    position: fixed;
+    align-self: left;
+    animation: cog_rotate_1 20s infinite;
+    animation-timing-function: linear;
+}
+
+.moving_cog_2{
+    margin-left: 95%;
+    margin-top: 3%;
+    position: fixed;
+    align-self: left;
+    animation: cog_rotate_2 20s infinite;
+    animation-timing-function: linear;
+}
+
+.moving_cog_3{
+  margin-left: -5%;
+  position: fixed;
+  align-self: bottom;
+  bottom: -15%;
+  animation: cog_rotate_1 20s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cog_rotate_1 {
+    from {
+    }
+    to {
+      transform: rotate(360deg)
+    }
+  }
+  @keyframes cog_rotate_2 {
+    from {
+    }
+    to {
+      transform: rotate(-360deg)
+    }
+  }
